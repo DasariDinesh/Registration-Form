@@ -1,0 +1,41 @@
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:sans-serif;
+  background:#f2f2f2;
+  margin:0;
+}
+
+form {
+  background:#fff;
+  padding:15px;
+  border-radius:6px;
+  width:220px;
+  text-align:center;
+  box-shadow:0 0 5px #aaa;
+}
+
+input,button {
+  width:100%;
+  margin:5px 0;
+  padding:6px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+button {
+  background:#4CAF50;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+}
+
+.err {
+  color:red;
+  font-size:11px;
+  display:block;
+  text-align:left;
+  margin-bottom:4px;
+}
